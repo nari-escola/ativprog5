@@ -1,0 +1,30 @@
+body {
+    background-color: #ddd; /* cor de fundo cinza claro */
+    font-family: "Helvetica Neue", sans-serif;
+    color: #444;
+    line-height: 1.5; /* espaçamento entre linhas */
+    width: 60%; /* ocupa 60% de largura */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+main {
+    background-color: white;
+    margin: 20px auto; /* 20px nas laterais e centralizado horizontalmente*/
+    padding: 20px; /* 20px interno em todos os lados */
+    /* boorda curva com 10 pixel */
+    border-radius: 10px;
+}
+
+section {
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+}
+
+
+h1, h2 {
+    color: rgb(140, 76, 8);
+    cursor: pointer;
+    user-select: none; /* Impede seleção do texto no duplo clique */
+}
